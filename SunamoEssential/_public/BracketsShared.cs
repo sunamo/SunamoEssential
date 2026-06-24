@@ -1,24 +1,13 @@
 namespace SunamoEssential._public;
 
-/// <summary>
-/// Specifies the type of bracket characters.
-/// </summary>
 public enum BracketsShared
 {
-    /// <summary>
-    /// Curly brackets: { }
-    /// </summary>
+    // Curly brackets: { }
     Curly,
-    /// <summary>
-    /// Square brackets: [ ]
-    /// </summary>
+    // Square brackets: [ ]
     Square,
-    /// <summary>
-    /// Normal (round) brackets: ( )
-    /// </summary>
+    // Normal (round) brackets: ( )
     Normal,
-    /// <summary>
-    /// No brackets.
-    /// </summary>
+    // No brackets.
     None
 }

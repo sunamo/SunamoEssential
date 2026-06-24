@@ -1,8 +1,5 @@
 namespace SunamoEssential._sunamo.SunamoArgs;
 
-/// <summary>
-/// Extended arguments for file retrieval with mask and search options.
-/// </summary>
 internal class GetFilesMoreMascArgs : GetFilesBaseArgsShared
 {
     internal bool IsLoadFromFileWhenDebug { get; set; } = false;
