@@ -9,19 +9,19 @@ public class SharedAlgorithms
         LastError = -1;
         TResult? result = default;
         bool isSuccessful = false;
-        for (int i = 0; i < times; i++)
+        for (int index = 0; index < times; index++)
         {
             try
             {
                 result = operation();
                 isSuccessful = true;
             }
-            catch (Exception ex)
+            catch (Exception exception)
             {
-                Console.WriteLine(ex.Message);
-                if (ex.Message.StartsWith("The remote server returned an error: "))
+                Console.WriteLine(exception.Message);
+                if (exception.Message.StartsWith("The remote server returned an error: "))
                 {
-                    var parts = SHSplit.Split(SHReplace.ReplaceOnce(ex.Message, "The remote server returned an error: ", string.Empty), " ");
+                    var parts = SHSplit.Split(SHReplace.ReplaceOnce(exception.Message, "The remote server returned an error: ", string.Empty), " ");
                     var errorCode = parts[0].TrimEnd(')').TrimStart('(');
                     LastError = int.Parse(errorCode);
                 }
