@@ -6,7 +6,6 @@ public enum BracketsShared
     Curly,
     // Square brackets: [ ]
     Square,
-    // Normal (round) brackets: ( )
     Normal,
     // No brackets.
     None
