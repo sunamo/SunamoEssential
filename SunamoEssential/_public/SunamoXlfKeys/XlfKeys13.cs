@@ -1,6 +1,5 @@
 namespace SunamoEssential._public.SunamoXlfKeys;
 
-// Variable names have been checked and replaced with self-descriptive names
 // Set to public because in my opinion it does not need to be public - it is repeated in SunamoDotnetCmdBuilder, SunamoDictionary and SunamoValues
 // Must stay here - there are hundreds of occurrences in SunamoShared
 // In other apps then hundreds more
