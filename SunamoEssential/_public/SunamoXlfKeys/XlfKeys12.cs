@@ -1,9 +1,9 @@
 namespace SunamoEssential._public.SunamoXlfKeys;
 
 // Variable names have been checked and replaced with self-descriptive names
-// Nastaven na public protože dle mě nemusí být public - opakuje se ve SunamoDotnetCmdBuilder, SunamoDictionary a SunamoValues
-// Musí tu zůstat - v SunamoShared jsou stovky výskytů
-// V dalších app potom dalších stovky
+// Set to public because in my opinion it does not need to be public - it is repeated in SunamoDotnetCmdBuilder, SunamoDictionary and SunamoValues
+// Must stay here - there are hundreds of occurrences in SunamoShared
+// In other apps then hundreds more
 public partial class XlfKeys
 {
     public const string errorTheActualCaptureDateCouldNotBeDeterminedAndRemainsUnchangedInTheDatabase = "errorTheActualCaptureDateCouldNotBeDeterminedAndRemainsUnchangedInTheDatabase";
