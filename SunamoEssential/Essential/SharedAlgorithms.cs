@@ -1,9 +1,23 @@
 namespace SunamoEssential.Essential;
 
+/// <summary>
+/// Represents the shared algorithms type.
+/// </summary>
 public class SharedAlgorithms
 {
+    /// <summary>
+    /// Gets or sets the last error.
+    /// </summary>
     public static int LastError { get; set; } = -1;
 
+    /// <summary>
+    /// Repeat after time x times t result.
+    /// </summary>
+    /// <typeparam name="TResult">The type TResult.</typeparam>
+    /// <param name="times">The times.</param>
+    /// <param name="timeoutMs">The timeout ms.</param>
+    /// <param name="operation">The operation.</param>
+    /// <returns>The repeat after time x times t result result.</returns>
     public static TResult RepeatAfterTimeXTimes<TResult>(int times, int timeoutMs, Func<TResult> operation)
     {
         LastError = -1;
