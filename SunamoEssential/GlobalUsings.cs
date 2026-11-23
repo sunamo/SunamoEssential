@@ -13,7 +13,6 @@ global using SunamoEssential._sunamo.SunamoExceptions;
 global using SunamoEssential._sunamo.SunamoFileExtensions;
 global using SunamoEssential._sunamo.SunamoFileSystem;
 global using SunamoEssential._sunamo.SunamoInterfaces.Interfaces;
-global using SunamoEssential._sunamo.SunamoInterfaces.Interfaces.SunamoPS;
 global using SunamoEssential._sunamo.SunamoRandom;
 global using SunamoEssential._sunamo.SunamoString;
 global using SunamoEssential._sunamo.SunamoStringData;
